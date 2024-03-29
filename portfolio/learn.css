@@ -1,0 +1,122 @@
+/* write down at the start of each css code */
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 2.5;
+}
+body {
+  background-color: rgb(252, 249, 250);
+}
+
+/* header code */
+.header{
+  background-color: rgb(201, 70, 70);
+  padding: 38px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center; 
+  justify-content: center;
+  padding: 0 25px;
+} 
+.paragraph{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+nav {
+  display: flex;
+  background-color: rgb(83, 2, 40);
+  justify-content: space-between;
+}
+
+.nav a{
+  text-decoration: none;
+  padding: 10px 16px;
+  color: white;
+
+}
+.nav a:hover{
+  background-color:rgb(139, 34, 52);
+  color:pink;
+}
+
+/* main */ 
+main{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 1rem;
+  }
+
+  .main{
+  border: 2px solid black;
+  background-color: rgb(255, 205, 205);
+  text-align: center; 
+  justify-content: center;
+  padding: 0 25px;
+ }
+  .image img {
+      width: 80%; 
+      display: block;
+      margin: 0 auto
+  }
+.image-3 img{
+       width: 80%; 
+      display: block;
+      margin: 0 auto
+}
+  section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+ /* aside */
+aside {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.images{
+  display:flex;
+  flex-direction: column;
+  width: 80%; 
+  display: block;
+  margin: 0 auto;
+}
+
+.aside{
+  background-color: rgb(255, 205, 205);
+  border: 2px solid black;
+  text-align: center;
+  justify-content: center;
+  }
+/* footer */
+.footer{
+  background-color: rgb(201, 70, 70);
+  padding: 20px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  flex-direction: column;
+}
+
+
+
+@media screen and (max-width: 701px){
+  main{
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  section{
+    width: 90%;
+  }
+
+  aside{
+    width: 90%;
+  }
+
+} 
